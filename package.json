@@ -1,0 +1,22 @@
+{
+  "name": "jbfc",
+  "version": "1.0.0",
+  "description": "This repository will house the single page JBFC landing site contents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mendahu/jbfc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mendahu/jbfc/issues"
+  },
+  "homepage": "https://github.com/mendahu/jbfc#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
