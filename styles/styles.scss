@@ -1,0 +1,48 @@
+$background-color: rgb(20, 20, 20);
+$white: rgb(235, 235, 235);
+
+//For slate background
+@mixin slate-background {
+  background-color: #ada58c;
+  background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
+}
+
+body {
+  background-color: $background-color;
+}
+
+main {
+  background-color: $background-color;
+}
+
+.slate {
+  @include slate-background;
+}
+
+.logo-container {
+  max-width: 75%;
+  max-height: 600px;
+}
+
+.logo-img {
+  max-height: 600px;
+}
+
+#logo-on-load {
+  opacity: 1;
+  animation-name: fadeIn;
+  animation-duration: 6s;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.bottom-sticker {
+  bottom: 0px;
+}
+
+.advance-arrow {
+  color: $white;
+}
