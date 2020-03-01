@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #141414;
 }
@@ -23,7 +27,7 @@ main {
 #logo-on-load {
   opacity: 1;
   animation-name: fadeIn;
-  animation-duration: 6s;
+  animation-duration: 10s;
 }
 
 @keyframes fadeIn {
@@ -36,6 +40,17 @@ main {
 }
 .bottom-sticker {
   bottom: 0px;
+  height: 96px;
+  width: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-sticker-arrow:hover {
+  width: 84px;
+  height: 84px;
+  transition: width 0.2s, height 0.2s;
 }
 
 .advance-arrow {
