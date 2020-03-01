@@ -37,6 +37,16 @@ main {
   background-color: $background-color;
 }
 
+a {
+  color: $jb-gold;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(189, 145, 0);
+  transition: color 0.2s;
+}
+
 .slate {
   @include slate-background;
 }
@@ -117,4 +127,15 @@ main {
   background-color: $jb-blue-light;
   text-decoration: none;
   color: $jb-gold;
+}
+
+/////////////////////////////////
+// Quote Container
+/////////////////////////////////
+
+blockquote > p {
+  background-color: rgba(67, 67, 67, 0.66);
+  border-radius: 10px;
+  padding: 10px;
+  font-style: italic;
 }

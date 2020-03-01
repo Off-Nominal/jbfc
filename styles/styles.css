@@ -20,6 +20,16 @@ main {
   background-color: #141414;
 }
 
+a {
+  color: #fbb040;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #bd9100;
+  transition: color 0.2s;
+}
+
 .slate {
   background-color: #99958e;
   background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
@@ -92,6 +102,13 @@ main {
   background-color: #322975;
   text-decoration: none;
   color: #fbb040;
+}
+
+blockquote > p {
+  background-color: rgba(67, 67, 67, 0.66);
+  border-radius: 10px;
+  padding: 10px;
+  font-style: italic;
 }
 
 /*# sourceMappingURL=styles.css.map */
