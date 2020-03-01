@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  font: 18px "Avenir Next", Avenir, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 body {
@@ -20,8 +21,12 @@ main {
 }
 
 .slate {
-  background-color: #ada58c;
-  background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
+  background-color: #99958e;
+  background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
+}
+
+.fancy-text {
+  font-family: "Domine", "Times New Roman", Times, serif;
 }
 
 .logo-container {
@@ -64,6 +69,29 @@ main {
 
 .advance-arrow {
   color: #ebebeb;
+}
+
+.jbfc-btn {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #fbb040;
+  background-color: #221c50;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  min-width: 300px;
+  max-width: 70%;
+}
+
+.jbfc-btn:hover {
+  background-color: #322975;
+  text-decoration: none;
+  color: #fbb040;
 }
 
 /*# sourceMappingURL=styles.css.map */

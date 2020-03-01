@@ -1,15 +1,23 @@
 $background-color: rgb(20, 20, 20);
 $white: rgb(235, 235, 235);
 $box-shadow-color: rgb(45, 45, 45, 1);
+$jb-gold: #fbb040;
+$jb-blue: #221c50;
+$jb-blue-light: #322975;
+
+/////////////////////////////////
+// Basic Document Properties
+/////////////////////////////////
 
 //For slate background
 @mixin slate-background {
-  background-color: #ada58c;
-  background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
+  background-color: #99958e;
+  background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
 }
 
 html {
   scroll-behavior: smooth;
+  font: 18px "Avenir Next", Avenir, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 body {
@@ -33,6 +41,14 @@ main {
   @include slate-background;
 }
 
+.fancy-text {
+  font-family: "Domine", 'Times New Roman', Times, serif;
+}
+
+/////////////////////////////////
+// Landing Page Logo Styling
+/////////////////////////////////
+
 .logo-container {
   max-width: 75%;
   max-height: 600px;
@@ -53,6 +69,10 @@ main {
   to {opacity: 1;}
 }
 
+/////////////////////////////////
+// Advance Arrow Styling
+/////////////////////////////////
+
 .bottom-sticker {
   bottom: 0px;
   height: 96px;
@@ -70,4 +90,31 @@ main {
 
 .advance-arrow {
   color: $white;
+}
+
+/////////////////////////////////
+// JBFC Button
+/////////////////////////////////
+
+.jbfc-btn {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: $jb-gold;
+  background-color: $jb-blue;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out;
+  min-width: 300px;
+  max-width: 70%;
+}
+
+.jbfc-btn:hover {
+  background-color: $jb-blue-light;
+  text-decoration: none;
+  color: $jb-gold;
 }

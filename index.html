@@ -7,6 +7,7 @@
   <title>The Jim Bridenstine Fan Club</title>
 
   <!-- Bootstrap CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Domine&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="styles/styles.css">
 </head>
@@ -32,26 +33,33 @@
 
       <!-- Introduction -->
       <section class="slate min-vh-100 mt-5" id="intro_section">
+
+        <!-- Hero image -->
         <div>
           <figure>
             <img src="assets/jim_doing_the_dew.jpg" alt="Jim Bridenstine, powered by Mountain Dew" class="figure-img img-fluid">
-            <figcaption class="figure-caption text-right text-black-50">Administrator Bridenstine speaks the truth to Congress.</figcaption>
+            <figcaption class="figure-caption text-right text-dark">Administrator Bridenstine speaks the truth to Congress (Credit: NASA).</figcaption>
           </figure>
         </div>
+
+        <!-- Text and Navigation -->
         <div class="container">
           <div>
-            <h2>Veteran.<br>Public Servant.<br>Diet Mountain Dew Drinker.</h2>
+            <h2 class="fancy-text">Veteran</h2>
+            <h2 class="fancy-text">Public Servant</h2>
+            <h2 class="fancy-text">Diet Mountain Dew Drinker</h2>
             <p>Join aerospace's most exclusive club honoring NASA's esteemed Administrator.</p>
             <p>We believe there's no one better to launch American astronauts on American rockets from American soil.</p>
           </div>
           <div class="d-flex flex-column align-items-center justify-content-center">
-            <a href="" class="btn btn-dark my-3 btn-lg">Become a Member</a>
-            <a href="" class="btn btn-dark my-3 btn-lg">Keep Reading</a>
+            <a href="#membership-section" class="jbfc-btn fancy-text">Become a Member</a>
+            <a href="#story-section" class="jbfc-btn fancy-text">Keep Reading</a>
           </div>
         </div>
       </section>
 
-      <section class="min-vh-100">
+      <!-- Story Section -->
+      <section id="story-section" class="min-vh-100">
         <div class="container text-white-50 mt-5">
 
           <h2>The Origin Story</h2>
@@ -73,7 +81,8 @@
         </div>
       </section>
 
-      <section class="slate mt-5 min-vh-100">
+      <!-- Become a Member -->
+      <section class="slate mt-5 min-vh-100" id="membership-section">
         <div id="carousel-controls" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carousel-controls" data-slide-to="0" class="active"></li>
@@ -117,7 +126,7 @@
           <p>Join the Jim Bridenstine Fan Club today! For just $10, you'll get a legendary JBFC pin and a membership card with your unique member ID and print run.</p>
           <p>Pair your membership with a t-shirt and/or mug to complete the whole set.</p>
           <div class="d-flex flex-column align-items-center justify-content-center">
-            <a href="https://shop.wemartians.com/category/jbfc" target="_blank" class="btn btn-dark my-3">Join now!</a>
+            <a href="https://shop.wemartians.com/category/jbfc" target="_blank" class="jbfc-btn fancy-text">Join now!</a>
           </div>
         </div>
       </section>
