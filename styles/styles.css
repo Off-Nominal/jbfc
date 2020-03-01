@@ -106,9 +106,15 @@ a:hover {
 
 blockquote > p {
   background-color: rgba(67, 67, 67, 0.66);
+  max-width: 80%;
   border-radius: 10px;
   padding: 10px;
   font-style: italic;
+  margin-left: 5%;
+}
+
+.logo-icon {
+  width: 50px;
 }
 
 /*# sourceMappingURL=styles.css.map */
