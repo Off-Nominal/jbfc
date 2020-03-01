@@ -48,7 +48,7 @@ a:hover {
   max-height: 600px;
 }
 
-#logo-on-load {
+.logo-on-load {
   opacity: 1;
   animation-name: fadeIn;
   animation-duration: 10s;
