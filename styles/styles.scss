@@ -1,5 +1,6 @@
 $background-color: rgb(20, 20, 20);
 $white: rgb(235, 235, 235);
+$box-shadow-color: rgb(45, 45, 45, 1);
 
 //For slate background
 @mixin slate-background {
@@ -12,7 +13,16 @@ html {
 }
 
 body {
+  display: flex;
+  justify-content: center;
   background-color: $background-color;
+}
+
+#page-container {
+  max-width: 960px;
+  -webkit-box-shadow: 5px 0px 145px 0px $box-shadow-color;
+  -moz-box-shadow: 5px 0px 145px 0px $box-shadow-color;
+  box-shadow: 5px 0px 145px 0px $box-shadow-color;
 }
 
 main {
