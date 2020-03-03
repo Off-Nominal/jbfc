@@ -48,7 +48,7 @@ a:hover {
   max-height: 600px;
 }
 
-#logo-on-load {
+.logo-on-load {
   opacity: 1;
   animation-name: fadeIn;
   animation-duration: 10s;
@@ -106,11 +106,9 @@ a:hover {
 
 blockquote > p {
   background-color: rgba(67, 67, 67, 0.66);
-  max-width: 80%;
   border-radius: 10px;
   padding: 10px;
   font-style: italic;
-  margin-left: 5%;
 }
 
 .logo-icon {
