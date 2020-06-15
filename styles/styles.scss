@@ -12,12 +12,12 @@ $jb-blue-light: #322975;
 //For slate background
 @mixin slate-background {
   background-color: #99958e;
-  background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
+  background-image: url('https://www.transparenttextures.com/patterns/ag-square.png');
 }
 
 html {
   scroll-behavior: smooth;
-  font: 18px "Avenir Next", Avenir, "Helvetica Neue", Helvetica, sans-serif;
+  font: 18px 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 body {
@@ -52,7 +52,7 @@ a:hover {
 }
 
 .fancy-text {
-  font-family: "Domine", 'Times New Roman', Times, serif;
+  font-family: 'Domine', 'Times New Roman', Times, serif;
 }
 
 /////////////////////////////////
@@ -75,8 +75,12 @@ a:hover {
 }
 
 @keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /////////////////////////////////
@@ -118,7 +122,7 @@ a:hover {
   font-weight: 400;
   text-align: center;
   vertical-align: middle;
-  transition: color .15s ease-in-out, background-color .15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
   min-width: 300px;
   max-width: 70%;
 }
@@ -127,6 +131,14 @@ a:hover {
   background-color: $jb-blue-light;
   text-decoration: none;
   color: $jb-gold;
+}
+
+/////////////////////////////////
+// Web Player
+/////////////////////////////////
+
+.player {
+  margin-bottom: 30px;
 }
 
 /////////////////////////////////

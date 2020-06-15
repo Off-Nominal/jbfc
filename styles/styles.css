@@ -104,6 +104,10 @@ a:hover {
   color: #fbb040;
 }
 
+.player {
+  margin-bottom: 30px;
+}
+
 blockquote > p {
   background-color: rgba(67, 67, 67, 0.66);
   border-radius: 10px;
